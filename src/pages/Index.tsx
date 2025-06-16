@@ -26,9 +26,9 @@ const Index = () => {
   ];
 
   const benefits = [
-    "20+ years of industry experience",
+    "15+ years of industry experience",
     "Proven track record of success",
-    "Customized solutions for your business",
+    "Customized solutions for your bess projects",
     "International market expertise",
     "End-to-end project management",
     "Measurable results and ROI"
@@ -57,19 +57,24 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-8 animate-fade-in">
-              Strategic Business
-              <span className="block text-blue-600">Consulting</span>
+              Insights unlocked!
+              <span className="block text-blue-600">Transforming Challenges into Opportunities</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in">
-              Transform your business with expert strategic guidance. We help companies navigate complex challenges 
-              and unlock sustainable growth opportunities.
+              Optimize Your Energy Future: Expert Technical Due Diligence for Advanced Battery Storage Solutions. Boost performance today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg group">
-                Get Started
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-slate-300 hover:bg-slate-50">
+              <Button
+                variant="outline"
+                size="lg"
+                className="px-8 py-4 text-lg border-slate-300 hover:bg-slate-50"
+                onClick={() => {
+                  const aboutSection = document.getElementById("about");
+                  if (aboutSection) {
+                    aboutSection.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+              >
                 Learn More
               </Button>
             </div>
@@ -152,7 +157,7 @@ const Index = () => {
               </div>
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-white rounded-2xl shadow-lg flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-slate-800">20+</div>
+                  <div className="text-2xl font-bold text-slate-800">15+</div>
                   <div className="text-sm text-slate-600">Years</div>
                 </div>
               </div>
@@ -166,19 +171,19 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-blue-100">Projects Completed</div>
+              <div className="text-4xl font-bold text-white mb-2">100+ MWh</div>
+              <div className="text-blue-100">Consulted projects</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-white mb-2">98%</div>
               <div className="text-blue-100">Client Satisfaction</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">50+</div>
+              <div className="text-4xl font-bold text-white mb-2">4+</div>
               <div className="text-blue-100">Countries Served</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">20+</div>
+              <div className="text-4xl font-bold text-white mb-2">15+</div>
               <div className="text-blue-100">Years Experience</div>
             </div>
           </div>
@@ -193,30 +198,25 @@ const Index = () => {
               Get In Touch
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Ready to transform your business? Let's discuss how we can help you achieve your goals.
+              Ready unlock the full potential of your BESS project? Let's discuss how we can help you achieve your goals.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
             <Card className="text-center p-8 hover:shadow-lg transition-shadow">
               <Mail className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-slate-800 mb-2">Email Us</h3>
               <p className="text-slate-600">info@bess-con.de</p>
             </Card>
             <Card className="text-center p-8 hover:shadow-lg transition-shadow">
-              <Phone className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-slate-800 mb-2">Call Us</h3>
-              <p className="text-slate-600">+49 (0) 123 456 789</p>
-            </Card>
-            <Card className="text-center p-8 hover:shadow-lg transition-shadow">
               <MapPin className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-slate-800 mb-2">Visit Us</h3>
-              <p className="text-slate-600">Berlin, Germany</p>
+              <p className="text-slate-600">Munich, Germany</p>
             </Card>
           </div>
           
           <div className="text-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-4 text-lg">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-4 text-lg" onClick={() => {window.location.href = "mailto:info@bess-con.de"; }}>
               Schedule a Consultation
             </Button>
           </div>
