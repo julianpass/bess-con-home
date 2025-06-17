@@ -231,7 +231,7 @@ const Index = () => {
             <p className="text-slate-400 mb-8">Insights unlocked!</p>
             <div className="border-t border-slate-700 pt-8">
               <div className="flex justify-center space-x-4 mb-4">
-                <a href="/imprint" className="text-slate-400 hover:text-white transition-colors">Impressum</a>
+                <a href="/imprint" className="text-slate-400 hover:text-white transition-colors">Imprint</a>
               </div>
               <p className="text-slate-400">
                 © 2024 BESS-CON. All rights reserved.

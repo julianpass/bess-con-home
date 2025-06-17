@@ -1,4 +1,3 @@
-
 const Imprint = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -20,72 +19,48 @@ const Imprint = () => {
 
       {/* Imprint Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl font-bold text-slate-800 mb-8">Impressum</h1>
+        <h1 className="text-4xl font-bold text-slate-800 mb-8">Imprint</h1>
         
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
           <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Angaben gemäß § 5 TMG</h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Information according to § 5 TMG</h2>
             <div className="text-slate-600 space-y-2">
               <p><strong>BESS-CON</strong></p>
-              <p>Musterstraße 123</p>
-              <p>80333 München</p>
-              <p>Deutschland</p>
+              <p>Julian Paß</p>
+              <p>Fürstenstr. 9</p>
+              <p>80333 Munich</p>
+              <p>Germany</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Kontakt</h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Contact</h2>
             <div className="text-slate-600 space-y-2">
-              <p><strong>E-Mail:</strong> info@bess-con.de</p>
-              <p><strong>Telefon:</strong> +49 (0) 89 123456789</p>
+              <p><strong>Email:</strong> jp@bess-con.de</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Geschäftsführer</h2>
-            <div className="text-slate-600">
-              <p>Max Mustermann</p>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Registereintrag</h2>
-            <div className="text-slate-600 space-y-2">
-              <p><strong>Eintragung im Handelsregister:</strong></p>
-              <p>Registergericht: Amtsgericht München</p>
-              <p>Registernummer: HRB 123456</p>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Umsatzsteuer-ID</h2>
-            <div className="text-slate-600">
-              <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
-              <p>DE123456789</p>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Haftung für Inhalte</h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Liability for Content</h2>
             <div className="text-slate-600 text-sm leading-relaxed">
-              <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
-              <p className="mt-4">Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
+              <p>As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to § 7 (1) TMG. According to §§ 8 to 10 TMG, however, we are not obliged as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.</p>
+              <p className="mt-4">Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this respect is only possible from the time of knowledge of a specific infringement. Upon becoming aware of such infringements, we will remove this content immediately.</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Haftung für Links</h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Liability for Links</h2>
             <div className="text-slate-600 text-sm leading-relaxed">
-              <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
-              <p className="mt-4">Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+              <p>Our offer contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this external content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking.</p>
+              <p className="mt-4">However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any legal infringements, we will remove such links immediately.</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Urheberrecht</h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Copyright</h2>
             <div className="text-slate-600 text-sm leading-relaxed">
-              <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
-              <p className="mt-4">Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+              <p>The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use.</p>
+              <p className="mt-4">Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.</p>
             </div>
           </section>
         </div>
