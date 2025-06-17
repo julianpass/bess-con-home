@@ -7,21 +7,21 @@ const Index = () => {
   const services = [
     {
       title: "Strategic Consulting",
-      description: "Develop comprehensive business strategies that drive sustainable growth and competitive advantage.",
+      description: "Develop comprehensive business strategies that drive sustainable growth and competitive advantage for your Energy Storage projects.",
       icon: TrendingUp,
-      features: ["Market Analysis", "Growth Strategy", "Digital Transformation"]
+      features: ["Market Analysis", "Growth Strategy", "Location Strategy"]
     },
     {
-      title: "Organizational Development", 
-      description: "Optimize your organizational structure and processes for maximum efficiency and performance.",
+      title: "Operations Development", 
+      description: "Optimize your BESS operations and processes for maximum efficiency and performance.",
       icon: Users,
-      features: ["Change Management", "Process Optimization", "Team Development"]
+      features: ["Availabilty & Performance checks", "Process Optimization", "Efficiency Analysis & Improvement"]
     },
     {
-      title: "International Expansion",
-      description: "Navigate global markets with confidence through our comprehensive international business expertise.",
+      title: "Technical Due Diligence",
+      description: "Ensure your BESS projects meet the highest technical standards and compliance requirements through expert due diligence.",
       icon: Globe,
-      features: ["Market Entry", "Cultural Adaptation", "Risk Assessment"]
+      features: ["Evaluate System Performance", "On Site Checks", "Risk Assessment"]
     }
   ];
 
@@ -58,10 +58,10 @@ const Index = () => {
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-8 animate-fade-in">
               Insights unlocked!
-              <span className="block text-blue-600">Transforming Challenges into Opportunities</span>
+              <span className="block text-blue-600 text-3xl md:text-4xl mt-4">Transforming Challenges into Opportunities</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in">
-              Optimize Your Energy Future: Expert Technical Due Diligence for Advanced Battery Storage Solutions. Boost performance today.
+              Expert Consulting and Technical Due Diligence for Advanced Battery Storage Solutions. Boost your performance today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
               <Button
@@ -228,7 +228,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold mb-4">BESS-CON</div>
-            <p className="text-slate-400 mb-8">Strategic Business Consulting</p>
+            <p className="text-slate-400 mb-8">Insights unlocked!</p>
             <div className="border-t border-slate-700 pt-8">
               <p className="text-slate-400">
                 © 2024 BESS-CON. All rights reserved.
